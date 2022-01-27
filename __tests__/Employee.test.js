@@ -1,9 +1,14 @@
 const Employee = require('../lib/Employee.js') 
 
 describe('Employee',() => {
-    describe('generating the parent employee class',() => {
+    describe('generating the parent employee object',() => {
         it('construct an employee object'), () => {
-            // contains name, id, email
+            // contains name, id number, email
+            const employee = new Employee ('jay', 20,'jay@gmail.com')
+
+            expect(employee.name).toEqual(expect.any(String));
+            expect(employee.id).toEqual(expect.any(Number));   
+            expect(employee.email).toEqual(expect.any(String));               
         }
     })
     describe('getName',() => {
