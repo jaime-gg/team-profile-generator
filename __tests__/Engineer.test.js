@@ -25,7 +25,7 @@ describe('Engineer',() => {
 
             // check the getRole() method from the engineer class
             // it should successfully overide the original and return Engineer
-            expect(employee.getRole()).toEqual(expect.stringContaining('Engineer'));
+            expect(engineer.getRole()).toEqual(expect.stringContaining('Engineer'));
         })
     })
 })
