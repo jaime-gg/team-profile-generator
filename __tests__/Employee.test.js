@@ -15,28 +15,28 @@ describe('Employee',() => {
         it('method for getting name', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
-            expect(employee.getName).toEqual('jaime');
+            expect(employee.getName()).toEqual(expect.stringContaining('jaime'));
         })
     })
     describe('getId',() => {
         it('method for getting id', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
-            expect(employee.getId).toEqual(20);
+            expect(employee.getId()).toEqual(20);
         })
     })
     describe('getEmail',() => {
         it('method for getting email', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
-            expect(employee.getEmail).toEqual('jaime@email.com');
+            expect(employee.getEmail()).toEqual(expect.stringContaining('jaime@email.com'));
         })
     })
     describe('getRole',() => {
         it('returns employee', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
-            expect(employee.getRole).toEqual('Employee');
+            expect(employee.getRole()).toEqual(expect.stringContaining('Employee'));
         })
     })
 })
