@@ -15,6 +15,7 @@ describe('Employee',() => {
         it('method for getting name', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
+            // check the getName() method from the employee class
             expect(employee.getName()).toEqual(expect.stringContaining('jaime'));
         })
     })
@@ -22,6 +23,7 @@ describe('Employee',() => {
         it('method for getting id', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
+            // check the getId() method from the employee class
             expect(employee.getId()).toEqual(20);
         })
     })
@@ -29,6 +31,7 @@ describe('Employee',() => {
         it('method for getting email', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
+            // check the getEmail() method from the employee class
             expect(employee.getEmail()).toEqual(expect.stringContaining('jaime@email.com'));
         })
     })
@@ -36,6 +39,7 @@ describe('Employee',() => {
         it('returns employee', () => {
             const employee = new Employee('jaime', 20,'jaime@email.com')
 
+            // check the getRole() method from the employee class
             expect(employee.getRole()).toEqual(expect.stringContaining('Employee'));
         })
     })
