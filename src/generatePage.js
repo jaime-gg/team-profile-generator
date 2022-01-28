@@ -16,7 +16,7 @@ const renderPage = function (employeeCards) {
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 mb-3 team-heading jumbotron bg-info text-white">
-          <h1 class="text-center">MEET THE TEAMclear</h1>
+          <h1 class="text-center">MEET THE TEAM!</h1>
         </div>
       </div>
     </div>
