@@ -49,5 +49,5 @@ The following video will demo the application, which is followed by a PNG of a w
 In addition to the following link to the repo, I was made to include a sample INDEX.HTML that was generated using my developed application, this can be found within DIST folder. Just for caution's sake, I'll include the link to it's location in the repo.
  
 * GitHub Repo: https://github.com/jaime-gg/team-profile-generator
-* Sample Index: https://github.com/jaime-gg/team-profile-generator/blob/main/dist/index.html 
+* Sample Webpage HTML: https://github.com/jaime-gg/team-profile-generator/blob/main/dist/index.html 
  
