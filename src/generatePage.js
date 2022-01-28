@@ -1,5 +1,5 @@
 // generate the main html for the page 
-const generateMainPage = function (data) {   
+const generatePage = function (data) {   
     return`
 
         <!DOCTYPE html>
@@ -36,3 +36,5 @@ const generateMainPage = function (data) {
 
     `;
 }
+
+module.exports = generatePage
