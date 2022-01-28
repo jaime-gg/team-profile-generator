@@ -1,4 +1,4 @@
-# 09 Node.js: Team Profile Generator
+# Team Profile Generator
 I was assigned the development of a node application that utilizes INQUIRER to prompt users into developing a webpage that displays cards with the inputed information on the user's team. This team profile generator was created using test driven development that was only made possible through the use of JEST, which ran tests on the files included in the __tests__ folder that is included in this repo.  
  
 ## Given: User Story
