@@ -1,4 +1,4 @@
-// generate the main html for the page 
+// GENERATE MAIN HTML FOR THE PAGE
 const generatePage = function (data) {   
     return`
 
@@ -36,5 +36,7 @@ const generatePage = function (data) {
 
     `;
 }
+
+
 
 module.exports = generatePage

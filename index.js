@@ -30,8 +30,7 @@ const inputManager = () => {
                 if (name) {
                     return true;
                 } else {
-                    console.log ("  Please enter a valid name!");
-                    return false; 
+                    return "Please enter a valid name!"; 
                 }
             }
         },
@@ -43,8 +42,7 @@ const inputManager = () => {
 
             validate: id => {
                 if  (isNaN(id)) {
-                    console.log ("  Please enter a valid ID!")
-                    return false; 
+                    return "Please enter a valid ID!"; 
                 } else {
                     return true;
                 }
@@ -60,8 +58,7 @@ const inputManager = () => {
                 if (email) {
                     return true;
                 } else {
-                    console.log ('  Please enter a valid email!')
-                    return false; 
+                    return 'Please enter a valid email!'; 
                 }
             }
         },
@@ -69,12 +66,11 @@ const inputManager = () => {
         {
             type: 'input',
             name: 'office',
-            message: "Please enter the manager's office number",
+            message: "What's the manager's office number?",
 
             validate: office => {
                 if  (isNaN(office)) {
-                    console.log ('  Please enter a valid office number!')
-                    return false; 
+                    return 'Please enter a valid office number!'; 
                 } else {
                     return true;
                 }
@@ -112,8 +108,7 @@ const inputEmployee = () => {
                 if (name) {
                     return true;
                 } else {
-                    console.log ("  Please enter a valid name!");
-                    return false; 
+                    return "Please enter a valid name!"; 
                 }
             }
         },
@@ -125,8 +120,7 @@ const inputEmployee = () => {
 
             validate: id => {
                 if  (isNaN(id)) {
-                    console.log ("  Please enter a valid ID!")
-                    return false; 
+                    return "Please enter a valid ID!"; 
                 } else {
                     return true;
                 }
@@ -142,8 +136,7 @@ const inputEmployee = () => {
                 if (email) {
                     return true;
                 } else {
-                    console.log ('  Please enter a valid email!')
-                    return false; 
+                    return 'Please enter a valid email!'; 
                 }
             }
         },
@@ -157,7 +150,7 @@ const inputEmployee = () => {
                 if (github ) {
                     return true;
                 } else {
-                    console.log ("  Please enter a valid github username!")
+                    return "Please enter a valid github username!"
                 }
             }
         },
@@ -171,7 +164,7 @@ const inputEmployee = () => {
                 if (school) {
                     return true;
                 } else {
-                    console.log ("Please enter a valid school!")
+                    return "Please enter a valid school!"
                 }
             }
         },
